@@ -37,3 +37,7 @@ pa_autoconfigure_django.py --nuke https://github.com/clemenssteel/my-first-runni
 
 Create Superuser pythonanywhere:
 python manage.py createsuperuser
+
+Phytonanywhere pull:
+cd ~/clemenssteel.pythonanywhere.com
+git pull
