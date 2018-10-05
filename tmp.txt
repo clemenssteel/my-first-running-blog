@@ -1,7 +1,7 @@
 Virtuelle Umgebung anlegen:
 python3 -m venv myvenv
 
-Virtuelle Umgebung öffnen:
+Virtuelle Umgebung starten:
 source myvenv/bin/activate
 
 Name des Repositories auf GitHub:
@@ -17,7 +17,8 @@ Git Zustand abgleichen:
 git status
 
 Commit:
-git add
+git add *
+git commit -m "URL hinzugefügt"
 
 Alles committen:
 git add --all .
