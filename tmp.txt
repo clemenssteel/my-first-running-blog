@@ -34,3 +34,6 @@ c702f20ddac0077b6b7c6a9974ea9ec4f44bcbf9
 
 Webpage neu hochladen:
 pa_autoconfigure_django.py --nuke https://github.com/clemenssteel/my-first-running-blog.git
+
+Create Superuser pythonanywhere:
+python manage.py createsuperuser
