@@ -8,7 +8,7 @@ Name des Repositories auf GitHub:
 my-first-running-blog
 
 Den Webserver starten:
-~/djangogirls$ python manage.py runserver
+python manage.py runserver
 
 Django Administration aufrufen:
 http://127.0.0.1:8000/admin/
@@ -41,3 +41,5 @@ python manage.py createsuperuser
 Phytonanywhere pull:
 cd ~/clemenssteel.pythonanywhere.com
 git pull
+
+python manage.py shell
