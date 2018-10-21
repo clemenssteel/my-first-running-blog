@@ -14,18 +14,18 @@
         </div>
 
         <div>
-            <p>publiziert: 05.10.2018, 08:15:</p>
+            <p>publiziert: 5. Oktober 2018 8:15:</p>
             <h2><a href="">Datensätze</a></h2>
             <p>Es liegen 88 Datensätze verschiedener Aktivitäten vor. Diese enthalten den kontinuierlichen Puls, die gelaufenen Meter und die kontnuierliche Position als Geokoordinaten. Außerdem Maximalpuls, mittlerer Puls und der Startzeitpunkt.</p>
         </div>
 
         <div>
-            <p>published: 05.10.2018, 09:14:</p>
+            <p>publiziert: 5. Oktober 2018 9:14:</p>
             <h2><a href="">Datenverarbeitung</a></h2>
             <p>Die Daten liegen im Garmin Dateiformat vor und können als xml Datei geparst werden. Eine Run Klasse erzeugt run Objekte mit dem Startzeitpunkt als Namen und den Daten als Dictionary mit Listen gefüllt.</p>
 			{% for post in posts %}
 				<div>
-					<p>published: {{ post.published_date }}:</p>
+					<p>publiziert: {{ post.published_date }}:</p>
 					<h2><a href="">{{ post.title }}</a></h2>
 					<p>{{ post.text|linebreaksbr }}</p>
 				</div>
