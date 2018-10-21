@@ -18,8 +18,15 @@
         </div>
 
         <div>
-            <p>published: 05.10.2018, 09:14</p>
+            <p>published: 05.10.2018, 09:14:</p>
             <h2><a href="">Datenverarbeitung</a></h2>
             <p>Die Daten liegen im Garmin Dateiformat vor und können als xml Datei geparst werden. Eine Run Klasse erzeugt run Objekte mit dem Startzeitpunkt als Namen und den Daten als Dictionary mit Listen gefüllt.</p>
+			{% for post in posts %}
+				<div>
+					<p>published: {{ post.published_date }}</p>
+					<h1><a href="">{{ post.title }}</a></h1>
+					<p>{{ post.text|linebreaksbr }}</p>
+				</div>
+			{% endfor %}
 </body>
 </html>
