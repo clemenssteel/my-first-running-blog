@@ -43,3 +43,7 @@ cd ~/clemenssteel.pythonanywhere.com
 git pull
 
 python manage.py shell
+
+CSS bei pythonanywhere aktualisieren 
+1. Virtuelle Umgebung aktivieren: 	workon
+2. Statische Dateien auf dem Server aktualisieren: 	collectstatic
